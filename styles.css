@@ -1,0 +1,54 @@
+/*
+    Chat is this real?
+*/
+
+body {
+    background-color: #313638;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #242729;
+}
+
+.navbar > li {
+    display: inline-block;
+}
+
+.navbar > li > a {
+    display: block;
+    color: rgb(238, 236, 232);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar > li > a:hover {
+    background-color: #242325;
+}
+
+canvas {
+    z-index: -1;
+    position: fixed;
+    display: block;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
