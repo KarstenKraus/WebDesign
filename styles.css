@@ -44,11 +44,3 @@ canvas {
     position: fixed;
     display: block;
 }
-
-.logo {
-    width: 10%;
-    height: 10%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
