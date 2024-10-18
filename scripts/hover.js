@@ -24,7 +24,6 @@ function rotateToMouse(card, e) {
     `;
 }
 
-// Define a function to handle mousemove
 function handleMouseMove(card) {
     return (e) => rotateToMouse(card, e);
 }
